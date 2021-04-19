@@ -1,0 +1,316 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('./Rectangle.png');
+    background-size: 100% 90vh;  
+}
+.header .title{
+    position: absolute;
+    margin:1px 200px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+}
+.header .title ul{
+    display: flex;
+    list-style: none;
+    flex-basis: 20%;
+}
+.header .title  ul li{
+   margin-right: 30px;
+   font-weight: bold;
+}
+.header .title .img{
+    flex-basis: 40%;
+}
+.header .introduce {
+    position: absolute;
+    color: #FFFFFF;
+    top: 300px;left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header .introduce h1{
+    font-size: 70px;
+
+}
+.header .introduce h4{
+    margin-top: -30px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.header .introduce button{
+    background-color:  #2091f9;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius:20px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body .row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.body .row1 .h1{
+    font-size: 40px;
+    padding: 20px;
+}
+.body .row1 .h5{
+    font-size: 20px;
+}
+.body .row2{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.body .row2 .pos{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body .row2 .pos .emphersize{
+   font-weight: bold;
+   text-align: center;
+}
+.body .row2 .pos .infor{
+    text-align: center;
+}
+.body .row3{
+   width: 70%;
+   height: 65vh;
+   background-image: url('./screenContent.png');
+   background-size: 100% 70vh;
+}
+.body .row4 {
+    display: flex;
+    width: 60%;
+    padding-top: 20vh;
+    align-items: center;
+}
+.body .row4 .pos1{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body .row4 .pos1 .emphersize{
+    width: 200px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.body .row4 .pos1 button{
+    background-color: #2091f9;
+    width: 100px;height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.body .row4 .pos2{
+  width: 600px;
+  height: 300px;
+  background-image: url('./Laptop.png');
+  background-size: 600px 300px;
+}
+/* ddd */
+.body .row5 {
+    width: 80%;
+    display: flex;
+    padding-top: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.body .row5 .pos1{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body .row5 .pos1 .emphersize{
+    width: 300px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.body .row5 .pos1 button{
+    background-color: #2091f9;
+    width: 100px;height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.body .row5 .pos1 input[type='text']{
+    width: 200px;height:15px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.body .row5 .pos2{
+  width: 700px;
+  height: 300px;
+  background-image: url('./letter.png');
+  background-size: 700px 300px;
+}
+.body .row6 {
+    margin-top: 150px;
+    width: 60%;
+    /* display: flex; */
+
+}
+.body .row6 .pos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body .row6 .pos1 .title{
+    font-size: 40px;
+}
+.body .row6 .pos2{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.body .row6 .pos2 .pic1{
+  width: 200px;
+  height: 80px;
+}
+.body .row6 .pos2 .pic{
+    width: 190px;
+    height: 80px;
+}
+.body .row6 button{
+    background-color: #2091f9;
+    width: 150px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 40px;
+}
+.body .row7{
+    background-color: #252b42;
+    width: 100%;
+    padding-top: 10vh;
+    margin-top: 5ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body .row7 .pos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.body .row7 .pos2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+}
+.body .row7 .pos1 .title{
+    font-size: 40px;
+}
+
+.body .row7 .pos2 .box1{
+    background-image: url('./0.png');
+    background-size: 250px 450px;
+    width: 250px; height: 450px;
+}
+.body .row7 .pos2 .box2{
+    background-image: url('./10.png');
+    background-size: 300px 600px;
+    width: 300px; height: 600px;
+}
+.body .row7 .pos2 .box3{
+    background-image: url('./99.png');
+    background-size: 250px 450px;
+    width: 250px; height: 450px;
+}
+.body .row8 .pos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.body .row8 .pos1 .title{
+    font-size: 40px;
+}
+.body .row8{
+    width: 100%;
+    padding-top: 10vh;
+    margin-top: 5ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body .row8 .pos2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20vh;
+    margin-left: 20%;
+}
+.body .row8 .pos2 .pos2-1{
+    background-image: url('./form.png');
+    width: 300px;
+    height:50vh;
+    background-size: 300px 50vh;
+    background-repeat: no-repeat;
+}
+.body .row8 .pos2 .pos2-2{
+    background-image: url('./right.png');
+    width: 60%;
+    height:50vh;
+    background-size: 60% 50vh;
+    background-repeat: no-repeat;
+}
+.body .row9{
+    background-color: #252b42;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.body .row9 ul{
+   text-decoration: none;
+   list-style: none;
+}
+.body .row9 ul li:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+ }
+.body .row9 ul li{
+    line-height: 30px;
+ }
+ .body .row9 div{
+     background-image: url('./row.png');
+     background-size: 400px 200px;
+     width: 400px; height: 200px;
+ }
